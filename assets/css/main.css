@@ -1753,7 +1753,6 @@ input, select, textarea {
 
 		.icon.solid:before {
 			font-weight: 900;
-			font-family: 'Font Awesome 5 Brands';
 		}
 
 		.icon.brands:before {
