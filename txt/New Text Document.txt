@@ -1,0 +1,20 @@
+I want it to be a sort of AI duplicate of me. I want her to do my dirty work (...all of my work). Although winging it is tempting, I need to think some more about what my end product ought to be.
+
+I can create a database of characteristics from my voice recording data (and other sources).
+The tool I have in mind is SQL. With my SQL database, I want to identify patterns, predict, and imitate my own behavior.
+
+The patterns must result in some kind of output. I am hoping for something text-based to build upon.
+
+I suppose I can build a vocabulary. But the vocabulary will need to be linked to possible inputs.
+
+This is where other AI comes in handy.
+
+Insofar as the resources are available, I intend to use other AI input data to understand what to do further with it.
+
+I need to teach her something small to begin with. My ideas for tasks must precede my ideas for capturable content.
+I can do some e-mail training, and perhaps teach her how to spot good deals. Though, this lends the question, what makes a "good deal". Tonight I'll go out on a limb in saying savings greater than 50% MSRP is a good deal.
+
+However, if we consider the greater impact of the scam we know as normative consumerism, it is hard to say a good deal exists at all....
+Nevertheless, we can determine what a good deal (or whatever metric the clone ends up interacting with on my behalf) by way of our beloved scientific method.
+
+It begins with documentation. It is nothing; not my skill, my wits, or my talent, but the act of recording my thoughts and actions that makes me a scientist. You have the same ability as I to hypothesize and experiment -- and we'd love to see it documented. Amen. 
