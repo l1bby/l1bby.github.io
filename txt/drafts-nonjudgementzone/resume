@@ -20,9 +20,9 @@
 
 <!-- SIMPLE TEXT-BASED NAVIGATION -->
 		<p>
-			<a href="index.html">back to my site</a>&nbsp;|&nbsp;
-			<a href="#">contact me (yay!)</a>&nbsp;|&nbsp;
-			UNDER CONSTRUCTION
+			<a href="#">back to my site</a>&nbsp;|&nbsp;
+			<a href="#contact">contact me (yay!)</a>&nbsp;|&nbsp;
+			UNDER CONSTRUCTION!!
 		</p>
 
 <!-- PERSONAL INFORMATION -->
