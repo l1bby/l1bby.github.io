@@ -17,7 +17,7 @@
 
 		<p>
 			<a href="#">back to my site</a>;
-			<a href="#contact">contact me (yay!)</a>;
+			<a href="#">contact me (yay!)</a>;
 			UNDER CONSTRUCTION!!
 		</p>
 
@@ -135,8 +135,8 @@
 <!-- THIS DIV CENTERS OUR LINKS -->
 	<div id="bottom">
 		<p>
-			<a href="index.html">RESUME HOME</a><a href="simple.html">SIMPLE RESUME</a>
-			<a href="#">COMPLEX RESUME</a><a href="code.html" target="_blank">SEE HTML</a>&nbsp;|&nbsp;<a href="resume.css" target="_blank">SEE CSS</a>
+			<a href="#">RESUME HOME</a><a href="simple.html">SIMPLE RESUME</a>
+			<a href="#">COMPLEX RESUME</a><a href="code.html" target="_blank">SEE HTML</a><a href="resume.css" target="_blank">SEE CSS</a>
 		</p>
 	</div>
 <!-- END CENTERING LINKS -->

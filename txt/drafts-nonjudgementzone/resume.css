@@ -1,10 +1,10 @@
 /****************************
-RESUME STYLES: Copy and paste these into your style.css page; Adjust the styles to fit your own typography and colors
+container STYLES: Copy and paste these into your style.css page; Adjust the styles to fit your own typography and colors
 *****************************/
 
-/* RESUME ID IS FOR THE OVERALL BOX */
+/* container ID IS FOR THE OVERALL BOX */
 
-#resume
+#container
 {
 	border: 1px #000 solid;
 	margin: 50px;
@@ -13,14 +13,14 @@ RESUME STYLES: Copy and paste these into your style.css page; Adjust the styles 
 	font-family: "courier new"
 }
 
-/* TOPINFO ID SELECTOR FOR THE PERSONAL INFORMATION AT THE TOP */
+/* resume-heading ID SELECTOR FOR THE PERSONAL INFORMATION AT THE TOP */
 
-#topinfo
+#resume-heading
 {
 text-align:center;
 }
 
-#topinfo p
+#resume-heading p
 {
 margin:0;
 }
@@ -63,19 +63,19 @@ margin-top:20px;
 
 /* STYLES FOR LINKS  BEGIN HERE */
 
-#resume a:link
+#container a:link
 {
 	color: #600;
 	text-decoration: none;
 }
 
-#resume a:visited
+#container a:visited
 {
 	color: #600;
 	text-decoration: none;
 }
 
-#resume a:hover
+#container a:hover
 {
 	color: #060;
 	text-decoration: underline;
@@ -84,39 +84,39 @@ margin-top:20px;
 
 /* STYLES FOR TEXT BEGIN HERE */
 
-#resume h1, h2, h3, h4, h5, h6
+#container h1, h2, h3, h4, h5, h6
 {
 	margin: 0;
 }
 
-#resume h1
+#container h1
 {
 	font-size: 14pt;
 	line-height: 20pt;
 	margin:10px 0 0 0;
 }
 
-#resume h2
+#container h2
 {
 	font-size: 12pt;
 	line-height: 14pt;
 }
 
-#resume h3
+#container h3
 {
-	font-size: 10pt;
+	font-size: 12pt;
 	line-height: 14pt;
 }
 
-#resume p
+#container p
 {
-	margin: 0 0 0 20px;
+	margin: 0 5px 5px 5px;
 	text-indent: 0;
 	font-size: 10pt;
 	line-height: 14pt;
 }
 
-#resume ul
+#container ul
 {
 	font-size: 10pt;
 	line-height: 14pt;
@@ -127,7 +127,7 @@ margin-top:20px;
 }
 
 
-/* CLEAR CLASS RESETS THE FLOAT; USE BETWEEN ROWS OF THE RESUME */
+/* CLEAR CLASS RESETS THE FLOAT; USE BETWEEN ROWS OF THE container */
 
 .clear
 {
