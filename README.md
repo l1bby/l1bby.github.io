@@ -1,3 +1,8 @@
 # l1bby.github.io
 
-Hi
+I am developing this website. It's all about me.
+
+
+Check it out if u wanna
+
+:-)
