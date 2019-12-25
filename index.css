@@ -4,26 +4,33 @@ body {
   color: rgb(37, 33, 33);
 }
 
-.wrapper {
-  border: 1px #000 solid;
-}
-
 nav {
   border: 1px #000 solid;
+  padding: 5px;
 }
 
-.main {
+#main {
   border: 1px #000 solid;
+  padding: 20px;
+  background-color: rgb(220, 244, 224);
 }
 
-.header {
-	border: 1px #000 solid;
+#header {
+	border: 1px #000 dotted;
+  background-color: rgb(232, 183, 58);
+  font-size: 12px;
 }
 
-.content {
+#content {
 	border: 1px #000 solid;
+  padding: 50px;
+  margin: 100px;
+  background-color: #fff;
+
 }
 
-.footer {
-	border: 1px #000 solid;
+#footer {
+	border: 1px #000 dotted;
+  background-color: rgb(249, 227, 255);
+  font-size: 12px
 }
