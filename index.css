@@ -7,21 +7,16 @@ body {
 nav {
   border: 1px #000 solid;
   padding: 5px;
-  float: right;
-}
-
-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
 #wrapper {
+  display: block;
 
 }
 
 #main {
+  display: block;
   border: 1px #000 solid;
   padding: 20px;
   background-color: rgb(244, 220, 219);
@@ -32,6 +27,8 @@ img {
 	border: 1px #000 dotted;
   background-color: rgb(161, 200, 233);
   font-size: 12px;
+  display: block;
+  padding: 25px;
 }
 
 #content {
@@ -39,8 +36,26 @@ img {
   padding: 50px;
   margin: 100px;
   background-color: #fff;
+  display: grid;
 
 }
+
+#header img {
+  float: right;
+  max-width: 20%;
+  height: auto;
+}
+
+#content p {
+
+  padding-left: 100px;
+}
+
+#txt2left {
+  padding-left: 2px;
+}
+
+
 
 #footer {
 	border: 1px #000 dotted;
