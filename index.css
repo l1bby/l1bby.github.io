@@ -1,34 +1,35 @@
 body {
-  background: rgb(253, 255, 222);
+  background: linear-gradient(76deg, #CCFFFF, #FFCCCC);
   font-family: monospace;
   color: rgb(37, 33, 33);
 }
 
 nav {
   border: 1px #000 solid;
-  padding: 5px;
-  display: block;
+  position: fixed;
+  top: 10%;
+  left: 80%;
+  padding: 1%;
+  background-color: #CCFFFF;
 }
 
 #wrapper {
   display: block;
-
+  background-color: inherit;
 }
 
 #main {
   display: block;
   border: 1px #000 solid;
-  padding: 20px;
-  background-color: rgb(244, 220, 219);
-  float: left;
+  padding: 2%;
+  background-color: inherit;
 }
 
 #header {
 	border: 1px #000 dotted;
-  background-color: rgb(161, 200, 233);
+  background-color: rgb(255, 238, 249);
   font-size: 12px;
-  display: block;
-  padding: 25px;
+  padding: 3%;
 }
 
 #content {
@@ -41,24 +42,23 @@ nav {
 }
 
 #header img {
-  float: right;
-  max-width: 20%;
+  position: fixed;
+  margin-top: 2%;
+  left: 90%;
+  max-width: 5%;
   height: auto;
 }
 
-#content p {
-
-  padding-left: 100px;
+#header span {
+  position: relative;
+  max-width: 30%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 120%;
 }
-
-#txt2left {
-  padding-left: 2px;
-}
-
-
 
 #footer {
 	border: 1px #000 dotted;
   background-color: rgb(249, 227, 255);
-  font-size: 12px
+  font-size: 12px;
 }
