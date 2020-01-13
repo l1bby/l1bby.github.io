@@ -18,8 +18,9 @@ body {
 }
 
 #header {
-  display: flex;
-  max-height: 110px;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-row: 110px;
 	border: 1px #000 dotted;
   background-color: rgb(255, 238, 249);
   font-size: 100%;
@@ -28,27 +29,28 @@ body {
 }
 
 #header img {
-  display: flex;
-  max-width: 75px;
+  max-width: 33.3%;
   height: auto;
+  grid-column: 1;
+}
+
+#boom {
+  display: grid;
+  text-align: center;
+  font-size: 100%;
+  padding: 1%;
+  grid-column: 2;
 }
 
 nav {
-  display: inline-block;
-  max-width: 75px;
+  display: grid;
+  max-width: 33.3%;
   padding: 1%;
   line-height: 150%;
   background-color: #CCFFFF;
   font-size: 100%;
   text-align: center;
-}
-
-#boom {
-  display: inline-block;
-  max-width: 80%;
-  text-align: center;
-  font-size: 100%;
-  padding: 25px;
+  grid-column: 3;
 }
 
 #libby-title{
@@ -60,7 +62,7 @@ nav {
 
 #content {
   display: grid;
-  grid-template-columns: 33% 3fr;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   grid-template-rows: 33% 3fr;
   border: 1px #000 solid;
   padding: 50px;
