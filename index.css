@@ -34,7 +34,7 @@ body {
 }
 
 nav {
-  display: block;
+  display: inline-block;
   max-width: 75px;
   padding: 1%;
   line-height: 150%;
@@ -44,7 +44,7 @@ nav {
 }
 
 #boom {
-  display: block;
+  display: inline-block;
   max-width: 80%;
   text-align: center;
   font-size: 100%;
