@@ -67,6 +67,19 @@ nav {
 
 }
 
+#BOX {
+  background-color: rgb(255, 238, 249);
+}
+
+#section-title {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#section-content {
+  padding: 0px 20px 20px 20px;
+}
+
 #footer {
   display: inline;
   position: relative;
