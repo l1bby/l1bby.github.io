@@ -25,30 +25,35 @@ body {
 
 }
 
-#header img {
-  max-width: 33.3%;
-  height: auto;
-  grid-column-start: 1;
-  grid-column-end: 1;
+#leftimg {
+    display: grid;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 25px 10px 0px 0px #000;
 }
 
 #boom {
   display: grid;
+  grid-column: 2;
   text-align: center;
   font-size: 100%;
   padding: 1%;
-  grid-column: 2;
 }
 
 nav {
   display: grid;
-  max-width: 33.3%;
-  padding: 1%;
+  grid-column: 3;
+  top: 80px;
+  right: 50px;
+  margin: auto;
   line-height: 150%;
   background-color: #CCFFFF;
   font-size: 100%;
   text-align: center;
-  grid-column: 3;
+
 }
 
 #libby-title{
