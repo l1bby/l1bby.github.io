@@ -1,11 +1,9 @@
 body {
-  background: linear-gradient(76deg, #CCFFFF, #FFCCCC);
+  background: linear-gradient(45deg, rgb(80, 62, 101), #000);
   font-family: monospace;
   color: rgb(37, 33, 33);
 }
 
-<!-- begin more specific instructions
-  -->
 #wrapper {
   background-color: inherit;
 }
@@ -25,6 +23,14 @@ body {
 
 }
 
+#header a {
+  color: rgb(80,62,101);
+}
+
+#header a:hover {
+  color: red;
+}
+
 #leftimg {
     display: grid;
     left: 50px;
@@ -32,7 +38,7 @@ body {
     height: 100px;
     background-color: transparent;
     border-radius: 50%;
-    box-shadow: 25px 10px 0px 0px #000;
+    box-shadow: 25px 10px 0px 0px ;
 }
 
 #boom {
@@ -43,6 +49,15 @@ body {
   padding: 1%;
 }
 
+#boom:hover {
+  display: grid;
+  grid-column: 2;
+  text-align: center;
+  font-size: 100%;
+  padding: 1%;
+  text-transform: uppercase;
+}
+
 nav {
   display: grid;
   grid-column: 3;
@@ -50,10 +65,23 @@ nav {
   right: 50px;
   margin: auto;
   line-height: 150%;
-  background-color: #CCFFFF;
+  background-color: ;
   font-size: 100%;
   text-align: center;
 
+}
+
+nav:hover {
+  display: grid;
+  grid-column: 3;
+  top: 80px;
+  right: 50px;
+  margin: auto;
+  line-height: 150%;
+  background-color: ;
+  font-size: 100%;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 #libby-title{
